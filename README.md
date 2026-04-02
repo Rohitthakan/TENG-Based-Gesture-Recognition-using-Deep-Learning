@@ -149,7 +149,7 @@ Loss Function: CrossEntropyLoss
 Optimizer: AdamW  
 Learning Rate: 0.0003  
 Batch Size: 16  
-Epochs: 150  
+Epochs: 70  
 
 Test-Time Augmentation (TTA) was used during validation and testing to improve prediction stability.
 
@@ -182,50 +182,6 @@ models/
 results/  
  accuracy_curve.png  
  confusion_matrix.png  
-
----
-
-## Installation
-
-Clone the repository:
-
-git clone https://github.com/yourusername/TENG-Acoustic-Vibration-Recognition.git
-
-cd TENG-Acoustic-Vibration-Recognition
-
-Install dependencies:
-
-pip install -r requirements.txt
-
----
-
-## Training
-
-Run the training script:
-
-python train_model.py
-
-This will:
-
-• Train the CNN model  
-• Save trained models  
-• Generate accuracy plots  
-• Generate confusion matrix  
-
----
-
-## Testing
-
-Run the testing script:
-
-python test_model.py
-
-This will:
-
-• Load the trained model  
-• Evaluate it on the test dataset  
-• Print per-class prediction statistics  
-• Generate confusion matrix  
 
 ---
 
