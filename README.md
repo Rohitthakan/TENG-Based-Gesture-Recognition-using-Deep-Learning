@@ -170,10 +170,11 @@ The confusion matrix confirms that the CNN successfully distinguishes between vi
 
 TENG-Acoustic-Vibration-Recognition/
 
-train_model.py  
-test_model.py  
+1d_cnn.png
 README.md  
 requirements.txt  
+test_model.py  
+train_model.py 
 
 models/  
  best_model.pth  
